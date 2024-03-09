@@ -4,7 +4,7 @@ body {
 }
 
 .profile-container {
-    max-width: 900px;
+    max-width: auto;
     margin: 20px auto;
     border: none;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -97,6 +97,12 @@ body {
     left: 153px;
     top: -58px;
 }
+.profile-container img{
+	width:200px;
+	height:200px;
+}
+
+
 
 .profile-container .profile-info {
     top: -50px;
