@@ -101,7 +101,7 @@ body {
 .profile-container .profile-info {
     top: -50px;
     position: relative;
-    background-color:#e7ec9d !important;
+    background-color:#e4e1f4 !important;
 
 }
 
@@ -153,3 +153,21 @@ body {
     margin: 0;
   }
 
+
+  @media (max-width: 768px) and (min-width: 321px) {
+    .profile-container {
+        margin: 20px auto;
+    }
+
+    .profile-container img {
+        top: -50px;
+        left: 200px !important;
+    }
+
+    .cover-text {
+        color: white;
+        font-size: 28px;
+        text-align: center;
+        height: 100px;
+    }
+}
