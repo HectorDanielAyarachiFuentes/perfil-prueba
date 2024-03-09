@@ -2,12 +2,12 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hector Daniel Ayarachi Fuentes</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f0f2f5;
     }
 
@@ -21,13 +21,23 @@
     }
 
     .cover-photo {
-      height: 150px;
-      background-image: url('cover-photo.jpg');
-      background-size: cover;
-      background-position: center;
-      position: relative;
-      background-color: #0b486b !important;
-    }
+  height: 150px;
+  background-image: url('img/portada.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: #0b486b !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-text {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px; /* Añadido */
+}
 
     .profile-photo {
       width: 100px;
@@ -100,47 +110,46 @@
       position: relative;
     }
 
-
-    @media (max-width:320px) {
-
+    @media (max-width: 320px) {
       .profile-container img {
         top: -58px;
         left: 149px !important;
       }
 
+
+      .cover-text {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  height: 90px;
+}
+
+
     }
+
+
+
   </style>
 </head>
 
 <body>
-  
-  <div class="profile-container">
-    <div class="cover-photo">
+
+  <head>
+    <div class="profile-container">
+      <div class="cover-photo">
+        <p class="profile-name">
+        <p class="cover-text">Curriculum Vitae</p>
+        </p>
+      </div>
+
+      <img src="img\dulce.png" alt="Perfil" class="profile-photo" />
+      <div class="profile-info">
+        <p class="profile-name">Hector Daniel Ayarachi</p>
+        <p class="followers-info">Lic. RRHH</p>
+      </div>
+
     </div>
-
-    <img
-      src="img\dulce.png"alt="Perfil" class="profile-photo">
-    <div class="profile-info">
-      <p class="profile-name">Hector Daniel Ayarachi</p>
-      <p class="followers-info">Lic. RRHH</p>
-    </div>
-  </div>
-
-
-
-
-
-  <div class="profile-container">
-    <div class="cover-photo">
-    </div>
-
-  
-
-
-
-
-
-
+  </head>
 </body>
 
 </html>
