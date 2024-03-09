@@ -121,3 +121,31 @@ body {
         height: 90px;
     }
 }
+
+
+
+
+/* Estilos existentes */
+
+.cv-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience,
+  .education {
+    margin-bottom: 20px;
+  }
+  
+  .experience h3,
+  .education h3 {
+    margin-bottom: 5px;
+  }
+  
+  .experience p,
+  .education p {
+    margin: 0;
+  }
