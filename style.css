@@ -101,6 +101,8 @@ body {
 .profile-container .profile-info {
     top: -50px;
     position: relative;
+    background-color:#e7ec9d !important;
+
 }
 
 @media (max-width: 320px) {
@@ -125,10 +127,11 @@ body {
 
 
 
+
 /* Estilos existentes */
 
 .cv-section {
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
@@ -149,3 +152,4 @@ body {
   .education p {
     margin: 0;
   }
+
