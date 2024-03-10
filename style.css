@@ -1,5 +1,5 @@
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f2f5;
 }
 
@@ -29,7 +29,6 @@ body {
     font-size: 24px;
     text-align: center;
     margin-top: 30px;
-    /* Añadido */
 }
 
 .profile-photo {
@@ -96,21 +95,15 @@ body {
     position: relative;
     left: 153px;
     top: -58px;
+    width: 200px;
+    height: 200px;
 }
-.profile-container img{
-	width:200px;
-	height:200px;
-}
-
-
 
 .profile-container .profile-info {
     top: -50px;
     position: relative;
-    background-color:#e4e1f4 !important;
-
+    background-color: #e4e1f4 !important;
 }
-
 @media (max-width: 320px) {
     .profile-container {
         margin: 10px auto;
